@@ -2,6 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+
+#bloco-1{
+  background-image: url("../../public/github.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#bloco-2{
+  background-image: url("../../public/linkedin.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#bloco-3{
+  background-image: url("../../public/email.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#bloco-4{
+  background-image: url("../../public/whatsapp.svg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+ 
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

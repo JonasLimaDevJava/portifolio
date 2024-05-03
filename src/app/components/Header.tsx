@@ -17,7 +17,7 @@ export const Header = ({logo}:Props) =>{
                 <ul className="flex justify-around  ">
                     <li> <a href="/home " className="bg-black mt-4 rounded-md p-1 border-white transition-all border-2 hover:border-transparent hover:bg-orange-300 hover:border-2  ">Home</a></li>
                     <li> <a href="/" className="bg-black mt-4 rounded-md p-1 border-white transition-all border-2 hover:border-transparent hover:bg-orange-300 hover:border-2  ">Sobre</a></li>
-                    <li> <a href="" className="bg-black mt-4 rounded-md p-1 border-white transition-all border-2 hover:border-transparent hover:bg-orange-300 hover:border-2  ">Contato</a></li>
+                    <li> <a href="/contato" className="bg-black mt-4 rounded-md p-1 border-white transition-all border-2 hover:border-transparent hover:bg-orange-300 hover:border-2  ">Contato</a></li>
                 </ul>
             </nav>
         </div>
