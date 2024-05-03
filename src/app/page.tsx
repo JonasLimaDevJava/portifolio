@@ -1,6 +1,6 @@
-import { Boddy } from "./Boddy";
-import { Header } from "./Header";
-import { Image } from "./Image";
+import { Boddy } from "./components/Boddy";
+import { Header } from "./components/Header";
+import { Image } from "./components/Image";
 
 const page = () => {
   return(
