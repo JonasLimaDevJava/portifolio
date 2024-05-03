@@ -1,5 +1,12 @@
-import { Item } from "@/types/item";
 
+
+type Item = {
+    id : number,
+    img : string,
+    title: string,
+    link: string,
+    subtitle : string
+}
 export const listItem : Item[]  = [
     {
         id: 1,
